@@ -74,6 +74,54 @@
       padding: 25px;
       color: #526963;
     }
+  
+/* Mobile-friendly layout */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+nav a {
+  display: inline-block;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+
+main {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 30px 16px;
+  }
+
+  header h1 {
+    font-size: 28px;
+  }
+
+  main {
+    padding: 14px;
+  }
+
+  nav {
+    position: static;
+  }
+    }
   </style>
 </head>
 <body>
